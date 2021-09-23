@@ -10,8 +10,7 @@ public class OrgTest {
 		String URL=System.getProperty("url");
 		
 		System.out.println("BROWSER======="+BROWSER+"URL============="+URL);
-		
-		
+			
 	}
 	@Test(groups = "regression")
 	public void createContactWithOrgTest() {
