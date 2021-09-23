@@ -1,20 +1,19 @@
-package com.comcast.contact;
+package com.comcast.orgtest;
 
 import org.testng.annotations.Test;
 
-public class ContactTest {
+public class OrgTest {
 	@Test(groups = "smoke")
 	public void createContactTest() {
-		System.out.println("exicte ctreateContactTest");
+		System.out.println("exicte ctreateOrgTest");
 		
 	}
 	@Test(groups = "regression")
 	public void createContactWithOrgTest() {
-		System.out.println("execte createContactWithOrgTest");
+		System.out.println("execte createOrgWithContactTest");
 	}
 	@Test(groups = "regression")
 	public void deleteContactTest() {
-		System.out.println("execute deleteContactTest");
+		System.out.println("execute deleteOrgTest");
 	}
-
 }
