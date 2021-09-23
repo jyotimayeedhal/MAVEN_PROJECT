@@ -6,6 +6,11 @@ public class OrgTest {
 	@Test(groups = "smoke")
 	public void createContactTest() {
 		System.out.println("exicte ctreateOrgTest");
+		String BROWSER=System.getProperty("browser");
+		String URL=System.getProperty("url");
+		
+		System.out.println("BROWSER======="+BROWSER+"URL============="+URL);
+		
 		
 	}
 	@Test(groups = "regression")
