@@ -22,4 +22,9 @@ public class ContactTest {
 		System.out.println("execute deleteContactTest");
 	
 	}
+	@Test(groups = "regression")
+	public void searchContactTest() {
+		System.out.println("execute deleteContactTest");
+	
+	}
 }
